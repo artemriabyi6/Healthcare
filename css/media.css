@@ -1,0 +1,309 @@
+/* @media (max-width: 1200px) {
+.container{
+    max-width: 970px;
+} */
+
+@media (max-width: 1110px) {
+.main_banner .container .icons{
+display: none;
+}
+.main_banner .container .find_doctor{
+max-width: 50%;
+margin: auto;
+text-align: center;
+padding-top: 50px;
+}
+.main_banner .container .find_doctor h1 {
+font-size: 38px;
+line-height: 50px;
+};
+.main_banner .container .find_doctor form{
+    background-color: #FFF;
+    padding: 7px 7px;
+    display: flex;
+    align-items: center;
+}
+    .main_banner .container .find_doctor form input{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(245, 246, 250, 0.52);
+    margin-right: 20px;
+    border: 1px solid rgba(245, 246, 250, 0.52);
+    padding-left: 10px;
+    font-size: 10px;
+ }
+    .main_banner .container .find_doctor form select{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(245, 246, 250, 0.52);
+    margin-right: 25px;
+    border: 1px solid rgba(245, 246, 250, 0.52);
+    font-size: 10px;
+}
+    .main_banner .container .find_doctor form button{
+    background-color: #40A3F8;
+    border: 1px solid #40A3F8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.reception{
+padding: 50px 0 0 0px;
+}
+.reception .container h2{
+font-size: 32px;
+}
+.reception .container .flex_container article{
+    margin-right: 10px;
+}
+.reception .container .flex_container article:last-of-type{
+margin-right: 0px;
+}
+.reception .container .flex_container article .row_title h4{
+font-size: 18px;
+}
+.reception .container .flex_container article .row_subtitle p{
+font-size: 10px;
+}
+.specialists .container .flexbox_container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.specialists .container .flexbox_container .doctor_pic{
+margin-bottom: 20px;
+max-width: 586px;
+}
+.specialists .container .flexbox_container .doctor_pic img{
+max-width: 70%;
+display: block;
+margin: auto;
+text-align: center;
+}
+.specialists .container .flexbox_container .doctors_list{
+max-width: 586px;
+text-align: center;
+margin-bottom: 14px;
+padding-top: 5px;
+margin-left: 0;
+}
+.specialists .container h5, .our_doctors{
+display: none;
+}
+.departaments .container .cards article{
+margin-right: 15px;
+padding: 30px 30px 15px 30px;
+}
+.departaments .container .cards article:last-of-type{
+    margin-right: 0;
+}
+.stuff .container .our_personal{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.stuff .container .our_personal article{
+margin-bottom: 20px;
+}
+.mobile_app .container{
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.mobile_app .container .iphone12{
+display: none;
+}
+.mobile_app .container .iphone12 img{
+
+}
+.mobile_app .container .app_describe{
+max-width: 600px;
+padding-top: 0px;
+}
+.reviews .container h2{
+font-size: 32px;
+padding: 0 10px;
+}
+.reviews .container .reviews_flex{
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.reviews .container .reviews_flex article{
+margin-bottom: 30px;
+}
+.appointment .container{
+flex-direction: column;
+}
+.appointment .appointment_flex{
+background-color: #40A3F8;
+border-radius: 16px;
+max-width: 700px;
+ margin: auto;
+}
+.appointment .appointment_flex .text{
+text-align: center;
+max-width: 500px;
+margin: auto;
+padding:30px 30px 30px 45px;
+}
+.appointment .container .young_girl img{
+display: none;
+}
+footer .container .footer_flex .subscribe input{
+width: 200px;
+height: 30px;
+}
+footer .container .footer_flex .subscribe button{
+width: 200px;
+height: 30px; 
+}
+}
+@media (max-width: 992px) {
+.container{
+max-width: 750px;
+}
+.main_banner .container .find_doctor h1{
+font-size: 28px;
+line-height: 30px;
+margin-bottom: 15px;
+}
+}
+@media (max-width: 767px) {
+.container{
+max-width: none;
+}
+header .container img{
+padding-left: 10px;
+}
+header .container nav{
+display: none;
+}
+.main_banner .container .find_doctor{
+    margin-bottom: 30px;
+}
+.reception{
+    padding: 0 10px 0 10px;
+}
+.reception .container h2{
+margin-bottom: 30px;
+line-height: 50px;
+}
+.reception .container .flex_container article{
+    flex-wrap: wrap;
+}
+.reception .container .flex_container article .row_title h4{
+    font-size: 15px;
+    line-height: 22px;
+}
+.specialists{
+    padding: 20px 10px;
+}
+.specialists .flexbox_container .doctors_list h3{
+font-size: 33px;
+}
+.departaments .container .cards article{
+margin-right: 15px;
+padding: 15px 15px 8px 15px;
+}
+.mobile_app .container .app_describe{
+text-align: center;
+}
+footer .container .footer_flex {
+flex-wrap: wrap;
+justify-content: space-around;
+}
+footer .container .footer_flex .links{
+order: 1;
+margin-right: 20px;
+
+}
+footer .container .footer_flex .category{
+order: 3;
+margin-right: 20px;
+}
+footer .container .footer_flex .about{
+order: 4;
+}
+footer .container .footer_flex .subscribe{
+order: 2;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+footer .container .footer_flex .subscribe input{
+width: 160px;
+height: 30px;
+}
+footer .container .footer_flex .subscribe button{
+width: 160px;
+height: 30px; 
+}
+}
+@media (max-width: 700px) {
+    .main_banner .container .find_doctor form{
+        flex-direction: column;
+        padding: 15px 0 5px 0px;
+        background-color: #40A3F8;
+    }
+    .main_banner .container .find_doctor form input{
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        background: rgba(245, 246, 250, 0.52);
+        margin-right: 20px;
+        border: 1px solid rgba(245, 246, 250, 0.52);
+        padding-left: 10px;
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+     }
+        .main_banner .container .find_doctor form select{
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        background: rgba(245, 246, 250, 0.52);
+        margin-right: 10px;
+        border: 1px solid rgba(245, 246, 250, 0.52);
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+        .main_banner .container .find_doctor form button{
+        background-color: #40A3F8;
+        border: 1px solid #40A3F8;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+.departaments .container .cards{
+flex-direction: column;
+align-items: center;
+}
+.departaments .container .cards article{
+margin-bottom: 25px;
+margin-right: 0;
+}
+}
+@media (max-width: 540px) {
+footer .container .footer_flex{
+flex-direction: column;
+align-items: center;
+}
+footer .container .footer_flex .links{
+    order: 1;
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+    footer .container .footer_flex .category{
+    order: 3;
+    margin-right: 0;
+    
+    }
+    footer .container .footer_flex .about{
+    order: 4;
+    }
+    footer .container .footer_flex .subscribe{
+    order: 2;
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+}
