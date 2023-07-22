@@ -27,15 +27,19 @@ header .container nav ul li{
     margin-right: 50px;
 }
 header .container nav ul li:first-child a{
-color: #40A3F8;
+color: #6E5F5F;
 font-size: 16px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
+transition: 0.2s ease-in-out;
+}
+header .container nav ul li:first-child a:hover{
+color: #40A3F8;
 }
 header .container nav ul li:last-child a {
-color: #FFF;
+color: #6E5F5F;
 font-size: 14.997px;
 font-family: Poppins;
 font-style: normal;
@@ -43,6 +47,16 @@ font-weight: 500;
 line-height: 22px;
 background-color: #40A3F8;
 padding: 12px 27px;
+transition: 0.2s ease-in-out;
+}
+header .container nav ul li a{
+    transition: 0.2s ease-in-out;
+}
+header .container nav ul li a:hover{
+    color: #40A3F8;
+}
+header .container nav ul li:last-child a:hover{
+color: white;
 }
 header .container nav ul li:last-child{
     margin-right: 0px;
@@ -76,7 +90,7 @@ max-width: 40%;
 }
 .main_banner .container .find_doctor h1{
 color: #3E3E3E;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -271,8 +285,8 @@ letter-spacing: 0.32px;
 margin-bottom: 14px;
 }
 .specialists .flexbox_container .doctors_list .describe::before{
-content: "";
-background-image: url(icons/ant-design_check-circle-filled.svg);
+content: '';
+background: url(../images/Icon.png);
 }
 .specialists .flexbox_container .doctors_list .describe:last-of-type{
 margin-bottom: 20px;
@@ -289,6 +303,10 @@ letter-spacing: 0.32px;
 padding: 10px 20px 10px 20px;
 background: var(--promary, #40A3F8);
 border-radius: 5px;
+transition: 0.2s ease-in-out;
+}
+.specialists .flexbox_container .doctors_list a:hover{
+background-color: #042541;
 }
 .specialists .flexbox_container .doctors_list a::after{
 content: ">>>";
@@ -332,6 +350,10 @@ padding: 60px 60px 30px 60px;
 display: flex;
 flex-direction: column;
 margin-bottom: 90px;
+transition: 0.2s ease-in-out;
+}
+.departaments .container .cards article:hover{
+    transform: scale(1.03, 1.03);
 }
 .departaments .container .cards article img{
 display: block;
@@ -404,7 +426,10 @@ box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.05);
 position: relative;
 display: flex;
 flex-direction: column;
-
+transition: 0.2s ease-in-out;
+}
+.stuff .container .our_personal article:hover{
+transform: scale(1.02, 1.02);
 }
 .stuff .container .our_personal article .wrapper_pic{
 max-width: 245px;
@@ -451,6 +476,10 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+transition: 0.2s ease-in-out;
+}
+.stuff .container a:hover{
+background-color: #042541;
 }
 .stuff .container .our_personal .fixed p{
 position: relative;
@@ -533,6 +562,10 @@ max-width: 370px;
 background-color: #FFF;
 padding: 20px 20px 30px 40px;
 position: relative;
+transition: 0.2s ease-in-out;
+}
+.reviews .container .reviews_flex article:hover{
+transform: scale(1.02, 1.02);
 }
 .reviews .container .reviews_flex article .quote{
 position: absolute;
@@ -616,6 +649,10 @@ background-color: #FFF;
 text-decoration: none;
 color: #40A3F8;
 padding: 15px 17px;
+transition: 0.2s ease-in-out;
+}
+.appointment .appointment_flex .text a:hover{
+background-color: #3c576e;
 }
 .appointment .container .young_girl img{
 position: absolute;
@@ -663,6 +700,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 14px;
 text-decoration: none;
+transition: 0.2s ease-in-out;
+}
+footer .container .footer_flex ul li a:hover{
+color: #40A3F8;
 }
 footer .container .footer_flex ul li:first-of-type a{
 color: var(--dark, #323232);
@@ -706,6 +747,10 @@ background-color: #40A3F8;
 color: #FFF;
 border: 1px solid #40A3F8;
 border-radius: 5px;
+transition: 0.2s ease-in-out;
+}
+footer .container .footer_flex .subscribe button:hover{
+background-color: #042541;
 }
 footer .container .copyright {
 display: flex;
@@ -728,6 +773,10 @@ font-weight: 400;
 line-height: 14px;
 margin-right: 50px;
 text-decoration: none;
+transition: 0.2s ease-in-out;
+}
+footer .container .copyright a:hover{
+color: #40A3F8;
 }
 footer .container .copyright a:last-child{
 margin-right: 0;
